@@ -1,0 +1,61 @@
+
+#navbar {
+	/*background-color: #6E6E6E;*/
+		background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
+
+}
+
+#nav {
+	background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
+}
+
+.footer {
+	padding-top: 20px;
+	background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
+}
+
+#footer {
+		background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
+
+}
+
+/*index*/
+
+.jumbotron {
+	padding-left: 20px;
+	color: #0489B1;
+	background-color: #6E6E6E;
+}
+
+/*h1 {
+	color: #0489B1;
+}*/
+
+a {
+	text-align: center;
+	font-size: 16;
+	padding: 20px;
+}
+
+.bio {
+	padding: 20px;
+}
+.panel-body {
+	float: left;
+}
+
+/*portfolio*/
+.thumbnail-container {
+	background-image: url(assets/clouds.jpg);
+}
+
+#APC {
+	padding: 20px;
+
+}
+
+h3 {
+	font-family: "verdana", sans-serif;
+}
+
+/*contact*/
