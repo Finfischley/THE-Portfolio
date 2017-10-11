@@ -1,4 +1,14 @@
 
+html, body {
+	margin: 0px;
+	padding: 0px;
+	min-height: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
+}
+
+
+
 #navbar {
 	/*background-color: #6E6E6E;*/
 		background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
@@ -6,19 +16,25 @@
 }
 
 #nav {
-	background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
+	/* background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%); */
+	background-color: #6E6E6E;
 }
 
 .footer {
-	padding-top: 20px;
+	padding: 20px;
 	background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
 }
 
 #footer {
-		background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
-
+	height: 50px;
+	background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
 }
 
+.footer-content {
+	height: 40px;
+	padding:10px;
+	background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
+}
 /*index*/
 
 .jumbotron {
@@ -33,20 +49,34 @@
 
 a {
 	text-align: center;
-	font-size: 16;
+	font-size: 20;
 	padding: 20px;
 }
 
 .bio {
-	padding: 20px;
+	padding: 40px;
 }
 .panel-body {
 	float: left;
 }
 
 /*portfolio*/
+
+.thumbnail {
+	background: linear-gradient(to bottom, #ccccff 0%, #ffcccc 100%);
+	border-color: #6E6E6E;
+}
 .thumbnail-container {
+	min-height: 100%;
+	height: auto;
+	margin-bottom: -50px;
 	background-image: url(assets/clouds.jpg);
+}
+
+.thumbnail-container:after {
+	content: "";
+	display: block;
+	height: 50px;
 }
 
 #APC {
@@ -59,3 +89,24 @@ h3 {
 }
 
 /*contact*/
+
+#submit {
+	padding: 20px;
+	margin-left: 50px;
+}
+
+#title {
+	margin-left: 40px;
+}
+
+#main-container {
+	min-height: 100%;
+	height: auto;
+	margin-bottom: -50px;
+}
+
+#main-container:after {
+	content: "";
+	display: block;
+	height: 50px;
+}

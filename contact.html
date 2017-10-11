@@ -9,11 +9,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div class="row">
+	<div id="nav" class="row">
 		<div class="col-md-7">
-			<nav class="navbar navbar-default">
+			<nav id="navbar" class="navbar navbar-default">
 	  			<div class="container-fluid">
-	    			<div class="navbar-header">
+	    			<div id="APC"class="navbar-header">
 	      				<a href="#">About</a>
 				  		<a href="#">Portfolio</a>
 				  		<a href="#">Contact</a>
@@ -21,40 +21,41 @@
 	  			</div>
 			</nav>
 		</div>
+		<div class="col-md-5"></div>
 	</div>
-	<div id="main-container" class="container">
+	<div id="main-container" class="row">
 		<section class="main-section">
-			<h1>Contact</h1>
-
+			<h1 id="title">Contact</h1>
+			<div class="col-md-8">
 			<form id="contact-form">
 				<ul>
 					<li>
 						<label for="name">Name</label>
-						<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+						<br>
+						<input class="form-control form-control-lg" type="text">
 					</li>
 					<li>
 						<label for="email">Email</label>
-						<input type="text" name="email" placeholder="example@gmail.com" required="required">
+						<br>
+						<input class="form-control form-control-lg" type="text">
 					</li>
 					<li>
 						<label for="message">Message</label>
-						<textarea id="message" name="message" required="required"></textarea>
+						<br>
+						<textarea class="form-control form-control-lg" id="message" name="message" required="required"></textarea>
 					</li>
 				</ul>
-				<input type="Submit">
+				<input id="submit" type="Submit">
 			</form>
-		
+			</div>
 		</section>
 	</div>
-	<div class="row">
-		<div class="col-md-5"></div>
-		<div class="col-md-7">
-			<div class="panel-footer">
-				<a href="#"><img src="assets/images/github.png" alt="Github" style="width: 40px;height: 40px;border: 0;"></a>
-				<a href="#"><img src="assets/images/linkedin.png" alt="linkedin" style="width: 40px;height: 40px;border: 0;"></a>
-				<a href="#"><img src="assets/images/stackoverflow.png" alt="stackoverflow" style="width: 40px;height: 40px;border: 0;"></a>
-			</div>
+	<footer id="footer">
+		<div class="footer-content">
+			<a href="#"><img src="assets/github.png" alt="Github" style="width: 40px;height: 40px;border: 0;"></a>
+			<a href="#"><img src="assets/linkedin.png" alt="linkedin" style="width: 40px;height: 40px;border: 0;"></a>
+			<a href="#"><img src="assets/stackoverflow.png" alt="stackoverflow" style="width: 40px;height: 40px;border: 0;"></a>
 		</div>
-	</div>
+	</footer>
 </body>
 </html>
